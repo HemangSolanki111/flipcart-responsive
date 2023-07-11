@@ -1,0 +1,757 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#top-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.contact-no {
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: blue;
+}
+
+
+.search-box {
+    width: 20%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.search-box input {
+    padding: 8px 15px;
+    width: 100%; 
+}
+
+
+.header-social {
+    width: 20%;
+    margin: auto;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.header-social i {
+    color: blue;
+    
+}
+
+
+.header-cart {
+    width: 20%;
+    margin: auto;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.header-cart i {
+    color: blue;
+}
+
+
+.header-login{
+    width: 20%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.header-login button {
+    font-size: 16px;
+    padding: 5px 40px;
+    border: none;
+    font-size: 24px;
+    color: blue;
+    /* border: #015aff 1px solid; */
+    cursor: pointer;
+    background-color: white;
+}
+
+.header-login button:hover {
+    background-color: #015aff;
+    color: white;
+    transition: ease all 0.5s;
+}
+
+/* nevbar */
+
+#nevbar {
+    width: 100%;
+    height: auto;
+    background-color: #015aff;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 20%;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.navbar-info {
+    width: 80%;
+}
+
+.navbar-item li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-item a:hover {
+    border: solid 1px white;
+    padding: 5px;
+}
+
+.dropdown
+{
+    position: relative;
+        
+}
+
+.dropdown-menu
+{
+    display: none;
+    background-color: #015aff;
+    min-width: 100px !important;
+    font-size: 17px !important;
+    line-height: 30px;
+    margin-top: 7%;
+}
+.dropdown-menu a
+{
+   
+    background-color: #015aff;
+    font-size: 16px !important;
+    display: block;
+}
+.dropdown-menu a::after
+{
+    display: none;
+    background-color: black;
+    min-width: 290px !important;
+    font-size: 15px !important;
+    content: "";
+
+   
+}
+.dropdown:hover .dropdown-menu 
+{
+    display: block;
+    position: absolute;
+    margin-left: 5% !important;
+        
+}
+
+
+
+/* form */
+
+.form-heading {
+    text-align: center;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#form {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form-img {
+    width: 40%;
+    height: 500px;
+    text-align: center !important;
+
+}
+
+.form-img img {
+    background-size: cover;
+    height: 250px;
+    width: 70%;
+}
+
+.contact-us-form {
+    width: 60%;
+    height: 500px;
+    margin-left: 2%;
+}
+
+.contact-us-form h2 {
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-us-form input {
+    border: none;
+    border-bottom: 1px solid #015aff;
+    width: 80%;
+    padding: 10px;
+}
+
+.contact-us-form .sendbtn {
+    background-color: #015aff;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 10%;
+    margin-top: 2%;
+    border: none;
+}
+
+.contact-us-form .resetbtn {
+    background-color: red;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 10%;
+    margin-top: 2%;
+    border: none;
+}
+
+
+
+/* footer */
+
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: #131337;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+#footer .about-us, .contact-us, .our-brand, .office-address {
+    width: 20%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px 30px; 
+    margin: 2%;
+}
+
+#footer p{
+    line-height: 10px;
+}
+
+#footer .office-address p{
+    line-height: 20px !important;
+}
+
+#bottom-footer {
+    width: 100%;
+    background-color: #131337;
+}
+
+#bottom-footer p{
+    padding: 0%;
+    margin: 0%;
+    padding: 10px;
+    border-top: 3px solid white;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+@media only screen and (max-width: 480px) {
+    /* header */
+    body {
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    #top-header {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+    
+    .contact-no {
+        width: 10%;
+        margin-left: 5%;
+        margin-top: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        color: blue;
+    }
+    
+    
+    .search-box {
+        width: 80%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    
+    .search-box input {
+        padding: 8px 10px;
+        width: 100%; 
+    }
+    
+    
+    .header-social {
+        width: 20%;
+        margin-left: 5%;
+        letter-spacing: 5px;
+        margin-top: 20px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .header-cart {
+        width: 60%;
+        margin: auto;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    
+    .header-login{
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    
+    .header-login button {
+        font-size: 16px;
+        padding: 5px 40px;
+        border: none;
+        font-size: 24px;
+        color: blue;
+        /* border: #015aff 1px solid; */
+        cursor: pointer;
+        background-color: white;
+    }
+    
+
+        
+    /* nevbar */
+
+    #nevbar {
+        width: 100%;
+        height: auto;
+        background-color: #015aff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .navbar-info {
+        width: 100%;
+    }
+
+    .navbar-item li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 0px 0px;
+    }
+
+    .navbar-item a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+
+    
+
+    /* form */
+
+    .form-heading {
+        font-size: 12px;
+        text-align: center;
+        color: green;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #form {
+        width: 80%;
+        height: 400px;
+        margin: auto;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .form-img {
+        width: 100%;
+        height: 500px;
+        text-align: center !important;
+
+    }
+
+    .form-img img {
+        background-size: cover;
+        height: 200px;
+        width: 70%;
+    }
+
+    .contact-us-form {
+        width: 100%;
+        height: 500px;
+        margin-left: 2%;
+    }
+
+    .contact-us-form h2 {
+        letter-spacing: 1px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .contact-us-form input {
+        border: none;
+        border-bottom: 1px solid #015aff;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .contact-us-form .sendbtn {
+        background-color: #015aff;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 20%;
+        margin-top: 2%;
+        border: none;
+    }
+
+    .contact-us-form .resetbtn {
+        background-color: red;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 20%;
+        margin-top: 2%;
+        border: none;
+    }
+
+
+     
+    /* footer */
+
+    #footer {
+        width: 100%;
+        height: auto;
+        background-color: #131337;
+        display:flex;
+        flex-direction: column !important;
+        margin-top: 80%;
+    }
+
+    #footer .about-us, .contact-us, .our-brand, .office-address {
+        width: 80%;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 20px; 
+        margin: 1%;
+        margin-top: 0%;
+        font-size: 10px;
+    }
+
+    #footer p{
+        line-height: 5px;
+    }
+
+    #footer .office-address p{
+        line-height: 20px !important;
+    }
+
+    #bottom-footer {
+        width: 100%;
+        background-color: #131337;
+    }
+
+    #bottom-footer p{
+        padding: 0%;
+        font-size: 10px;
+        margin: 0%;
+        padding: 5px;
+        border-top: 2px solid white;
+        text-align: center;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+}
+
+
+
+
+    
+
+@media only screen and (max-width: 768px) {
+    /* header */
+    body {
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    #top-header {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+    
+    .contact-no {
+        width: 10%;
+        margin-left: 5%;
+        margin-top: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        color: blue;
+    }
+    
+    
+    .search-box {
+        width: 80%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    
+    .search-box input {
+        padding: 8px 10px;
+        width: 100%; 
+    }
+    
+    
+    .header-social {
+        width: 20%;
+        margin-left: 5%;
+        letter-spacing: 5px;
+        margin-top: 20px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .header-cart {
+        width: 60%;
+        margin: auto;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    
+    .header-login{
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+    }
+    
+    .header-login button {
+        font-size: 16px;
+        padding: 5px 40px;
+        border: none;
+        font-size: 24px;
+        color: blue;
+        /* border: #015aff 1px solid; */
+        cursor: pointer;
+        background-color: white;
+    }
+    
+
+        
+    /* nevbar */
+
+    #nevbar {
+        width: 100%;
+        height: auto;
+        background-color: #015aff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .navbar-info {
+        width: 100%;
+    }
+
+    .navbar-item li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 0px 0px;
+    }
+
+    .navbar-item a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+
+    
+
+    /* form */
+
+    .form-heading {
+        font-size: 12px;
+        text-align: center;
+        color: green;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #form {
+        width: 80%;
+        height: 400px;
+        margin: auto;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .form-img {
+        width: 100%;
+        height: 500px;
+        text-align: center !important;
+
+    }
+
+    .form-img img {
+        background-size: cover;
+        height: 200px;
+        width: 70%;
+    }
+
+    .contact-us-form {
+        width: 100%;
+        height: 500px;
+        margin-left: 2%;
+    }
+
+    .contact-us-form h2 {
+        letter-spacing: 1px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .contact-us-form input {
+        border: none;
+        border-bottom: 1px solid #015aff;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .contact-us-form .sendbtn {
+        background-color: #015aff;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 20%;
+        margin-top: 2%;
+        border: none;
+    }
+
+    .contact-us-form .resetbtn {
+        background-color: red;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 20%;
+        margin-top: 2%;
+        border: none;
+    }
+
+
+     
+    /* footer */
+
+    #footer {
+        width: 100%;
+        height: auto;
+        background-color: #131337;
+        display:flex;
+        flex-direction: column !important;
+        margin-top: 80%;
+    }
+
+    #footer .about-us, .contact-us, .our-brand, .office-address {
+        width: 80%;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 20px; 
+        margin: 1%;
+        margin-top: 0%;
+        font-size: 10px;
+    }
+
+    #footer p{
+        line-height: 5px;
+    }
+
+    #footer .office-address p{
+        line-height: 20px !important;
+    }
+
+    #bottom-footer {
+        width: 100%;
+        background-color: #131337;
+    }
+
+    #bottom-footer p{
+        padding: 0%;
+        font-size: 10px;
+        margin: 0%;
+        padding: 5px;
+        border-top: 2px solid white;
+        text-align: center;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+}

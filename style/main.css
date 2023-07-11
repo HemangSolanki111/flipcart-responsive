@@ -1,0 +1,303 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+#top-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.contact-no {
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: blue;
+}
+
+
+.search-box {
+    width: 20%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.search-box input {
+    padding: 8px 15px;
+    width: 100%; 
+}
+
+
+.header-social {
+    width: 20%;
+    margin: auto;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.header-social i {
+    color: blue;
+    
+}
+
+
+.header-cart {
+    width: 20%;
+    margin: auto;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.header-cart i {
+    color: blue;
+}
+
+
+.header-login{
+    width: 20%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.header-login button {
+    font-size: 16px;
+    padding: 5px 40px;
+    border: none;
+    font-size: 24px;
+    color: blue;
+    /* border: #015aff 1px solid; */
+    cursor: pointer;
+    background-color: white;
+}
+
+.header-login button:hover {
+    background-color: #015aff;
+    color: white;
+    transition: ease all 0.5s;
+}
+
+/* nevbar */
+
+#nevbar {
+    width: 100%;
+    height: auto;
+    background-color: #015aff;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 20%;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.navbar-info {
+    width: 80%;
+}
+
+.navbar-item li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-item a:hover {
+    border: solid 1px white;
+    padding: 5px;
+}
+
+.dropdown
+{
+    position: relative;
+        
+}
+
+.dropdown-menu
+{
+    display: none;
+    background-color: #015aff;
+    min-width: 100px !important;
+    font-size: 17px !important;
+    line-height: 30px;
+    margin-top: 7%;
+}
+.dropdown-menu a
+{
+   
+    background-color: #015aff;
+    font-size: 16px !important;
+    display: block;
+}
+.dropdown-menu a::after
+{
+    display: none;
+    background-color: black;
+    min-width: 290px !important;
+    font-size: 15px !important;
+    content: "";
+
+   
+}
+.dropdown:hover .dropdown-menu 
+{
+    display: block;
+    position: absolute;
+    margin-left: 5% !important;
+        
+}
+
+
+
+/* banner */
+
+
+#banner {
+    width: 100%;
+    margin-top: 0;
+}
+
+#banner img {
+    width: 100%;
+}
+
+
+
+/* product 1 */
+
+#product1 {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border: 1px solid gray;
+    margin-top: 2%;
+}
+
+.product1-heading {
+    width: 100%;
+    height: auto;
+    background-color: #e6e6e6;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.heading {
+    padding: 5px 20px; 
+    margin: 0%;
+    line-height: 5px;
+}
+
+.heading h3 {
+    color: gray;
+}
+
+.viewall-btn {
+    padding: 20px;
+}
+
+.viewall-btn button {
+    padding: 10px 20px;
+    background-color: #015aff;
+    border: none;
+    color: white;
+}
+
+.mobileproduct {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    justify-content: center;  
+    text-align: center;  
+}
+
+.mobileproduct img {
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+   padding: 0 15px;
+}
+
+.mobileproduct figcaption {
+    text-align: center;
+    line-height: 20px;
+    margin-top: 8%;
+}
+
+.mobileproduct button {
+    background-color: orangered;
+    color: #e6e6e6;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+
+
+
+/* footer */
+
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: #131337;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+#footer .about-us, .contact-us, .our-brand, .office-address {
+    width: 20%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px 30px; 
+    margin: 2%;
+}
+
+#footer p{
+    line-height: 10px;
+}
+
+#footer .office-address p{
+    line-height: 20px !important;
+}
+
+#bottom-footer {
+    width: 100%;
+    background-color: #131337;
+}
+
+#bottom-footer p{
+    padding: 0%;
+    margin: 0%;
+    padding: 10px;
+    border-top: 3px solid white;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
